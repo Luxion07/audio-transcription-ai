@@ -1,0 +1,5 @@
+# Makefile for transcription automation
+
+# Command to activate the virtual environment and start transcription
+transcription:
+	source whisper_env/bin/activate && python3 transcribe.py
